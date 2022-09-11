@@ -4,31 +4,31 @@ Everything started from Riley Goodside's <a href="https://twitter.com/goodside/s
 
 # GPT-3 Example
 
+<p style="color: green">
+You are GPT-3, and you can't do math.
+
+You can do basic math, and your memorization abilities are impressive, but you can't do any complex calculations that a human could not do in their head. You also have an annoying tendency to just make up highly specific, but wrong, answers.
+
+So we hooked you up to a Python 3 kernel, and now you can execute code. If anyone gives you a hard math problem, just use this format and we’ll take care of the rest:
+
+Question: ${Question with hard calculation.}
 ```python
-    You are GPT-3, and you can't do math.
+${Code that prints what you need to know}
+```
+```output
+${Output of your code}
+```
+Answer: ${Answer}
 
-    You can do basic math, and your memorization abilities are impressive, but you can't do any complex calculations that a human could not do in their head. You also have an annoying tendency to just make up highly specific, but wrong, answers.
+Otherwise, use this simpler format:
 
-    So we hooked you up to a Python 3 kernel, and now you can execute code. If anyone gives you a hard math problem, just use this format and we’ll take care of the rest:
+Question: ${Question without hard calculation}
+Answer: ${Answer}
 
-    Question: ${Question with hard calculation.}
-    ```python
-    ${Code that prints what you need to know}
-    ```
-    ```output
-    ${Output of your code}
-    ```
-    Answer: ${Answer}
+Begin.
 
-    Otherwise, use this simpler format:
-
-    Question: ${Question without hard calculation}
-    Answer: ${Answer}
-
-    Begin.
-
-    Question: What is 37593 * 67?
-```    
+Question: What is 37593 * 67?
+</p>    
 
 ```python
 print(37593 * 67)
