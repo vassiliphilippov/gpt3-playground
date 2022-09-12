@@ -4,7 +4,7 @@ Everything started from Riley Goodside's <a href="https://twitter.com/goodside/s
 
 # GPT-3 Example
 
-<code style="color: green">
+<pre style="color: green">
 You are GPT-3, and you can't do math.
 
 You can do basic math, and your memorization abilities are impressive, but you can't do any complex calculations that a human could not do in their head. You also have an annoying tendency to just make up highly specific, but wrong, answers.
